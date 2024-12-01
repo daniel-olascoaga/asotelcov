@@ -21,13 +21,13 @@ export default function Landing() {
             <p className="text-lg text-gray-700 dark:text-gray-300">
             Somos un grupo de profesionales altamente capacitados que brindan soluciones eléctricas integrales para hogares, comercios e industrias. Nuestro compromiso es garantizar la seguridad, eficiencia y calidad en cada proyecto.
             </p>
-            {/*<Link
+            <Link
               to="/nosotros"
             >
               <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700">
                   Conoce más
               </button>
-            </Link>*/}
+            </Link>
         </div>
         </div>
         <div className="bg-white dark:bg-gray-900 py-16">
