@@ -22,7 +22,7 @@ export default function Landing() {
             Somos un grupo de profesionales altamente capacitados que brindan soluciones eléctricas integrales para hogares, comercios e industrias. Nuestro compromiso es garantizar la seguridad, eficiencia y calidad en cada proyecto.
             </p>
             <Link
-              to="/nosotros"
+              to="/asotelcov/nosotros"
             >
               <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700">
                   Conoce más
