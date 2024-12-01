@@ -1,0 +1,75 @@
+/* Styles of sections home */
+.containerHome {
+    margin: 0;
+    margin-bottom: 5rem;
+  }
+  
+  .containerHome > h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 2vh 0;
+    color: black;
+  }
+  
+  .containerHome > .containerBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /* Styles of sections projects */
+  .containerProjects {
+    margin: 0 5vw;
+  }
+  
+  .containerProjects > h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 2vh;
+    color: black;
+  } 
+  
+  .containerProjects > .containerCards{
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem),1fr));
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Styles of sections skills */
+  .skillsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .skillsContainer > h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  @media screen and (max-width: 520px) {
+    /* Styles of sections home */
+    .containerHome > h2 {
+      font-size: 1.3rem;
+    }
+  
+    /* Styles of sections projects */
+    .containerProjects > h2 {
+      font-size: 1.3rem;
+    }
+  
+    /* Styles of sections skills */
+    .skillsContainer > h2 {
+      font-size: 1.3rem;
+    }
+  }
