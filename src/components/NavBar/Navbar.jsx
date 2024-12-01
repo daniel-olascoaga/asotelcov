@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-700 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link className="flex items-center space-x-3 rtl:space-x-reverse" to="/inicio">
+        <Link className="flex items-center space-x-3 rtl:space-x-reverse" to="/asotelcov/inicio">
           <img
             src={Logo}
             className="h-10"
@@ -53,7 +53,7 @@ export default function Navbar() {
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 lg:border-none border-gray-100 rounded-lg lg:bg-gray-700 md:bg-gray-700 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-gray-700 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link
-                to="/inicio"
+                to="/asotelcov/inicio"
                 className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
                 aria-current="page"
               >
@@ -62,7 +62,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="/nosotros"
+                to="/asotelcov/nosotros"
                 className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Nosotros
@@ -102,7 +102,7 @@ export default function Navbar() {
                 >
                   <li>
                     <Link
-                      to="/estatutos"
+                      to="/asotelcov/estatutos"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Estatutos
@@ -110,7 +110,7 @@ export default function Navbar() {
                   </li>
                   <li aria-labelledby="dropdownNavbarLink">
                     <Link
-                      to="/camaraComercio"
+                      to="/asotelcov/camaraComercio"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Cámara de comercio
@@ -118,7 +118,7 @@ export default function Navbar() {
                   </li>
                   <li>
                     <Link
-                      to="/constitucion"
+                      to="/asotelcov/constitucion"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Resolución de constitución
@@ -126,7 +126,7 @@ export default function Navbar() {
                   </li>
                   <li>
                     <Link
-                      to="/certificados"
+                      to="/asotelcov/certificados"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Certificados 
@@ -134,7 +134,7 @@ export default function Navbar() {
                   </li>
                   <li>
                     <Link
-                      to="/actas"
+                      to="/asotelcov/actas"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Actas
@@ -153,7 +153,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="/novedades"
+                to="/asotelcov/novedades"
                 className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Novedades
@@ -161,7 +161,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="/publicaciones"
+                to="/asotelcov/publicaciones"
                 className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Publicaciones
@@ -169,7 +169,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="/eventos"
+                to="/asotelcov/eventos"
                 className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Eventos
@@ -209,7 +209,7 @@ export default function Navbar() {
                 >
                   <li>
                     <Link
-                      to="/registro"
+                      to="/asotelcov/registro"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Registrarse
@@ -218,7 +218,7 @@ export default function Navbar() {
                   <li>
                     <div className="py-1">
                       <Link
-                        to="/acceso"
+                        to="/asotelcov/acceso"
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                       >
                         Acceder

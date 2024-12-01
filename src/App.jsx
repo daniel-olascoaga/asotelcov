@@ -21,7 +21,7 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout/>}>
+          <Route path="/asotelcov" element={<Layout/>}>
             <Route index element={<Inicio/>}/>
             <Route path="inicio" element={<Inicio/>}/>
             <Route path="nosotros" element={<Nosotros/>}/>
